@@ -46,7 +46,7 @@ export default function Input() {
     setInputValue(value)/* STEP 4 */
   };
   const reset = () => {
-    /* STEP 5 */
+    setInputValue('')/* STEP 5 */
   };
 
   const style = {
