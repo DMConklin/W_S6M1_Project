@@ -51,7 +51,7 @@ export default function Counter() {
   const [count, setCount] = useState(0)/* STEP 1 */
 
   const increment = () => {
-    /* STEP 4 */
+    setCount(count+1)/* STEP 4 */
   };
   const decrement = () => {
     /* STEP 5 */
